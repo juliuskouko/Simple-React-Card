@@ -1,0 +1,46 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(208, 194, 188, 0.735);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 300px 100px 50px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.091),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.847);
+}
+
+h1{
+    font-size: 45px;
+    color: rgb(17, 96, 175);
+    text-align: left;
+}
+
+/* h1::first-letter{
+    color: rgb(9, 180, 77);
+} */
+
+.info{
+    margin: 50px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(43, 39, 39);
+    
+}
+
+.image{
+    height: 200vh;
+    width: 30%;
+    
+}
+
+p,h1 {
+    text-align: center;
+}
